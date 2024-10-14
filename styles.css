@@ -1,0 +1,40 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fdf5e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #0c0a0a;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 252, 252, 0.2);
+    border: 2px solid #d3d3d3;
+    max-width: 600px;
+    margin: 20px;
+}
+
+h1 {
+    color: #ff69b4;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+    color: #ffebeb;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid #d3d3d3;
+    cursor: pointer;
+}
